@@ -1,14 +1,12 @@
 ---
 layout: page
 title: Docsy Jekyll Theme
-permalink: /
+permalink: /doc
 ---
 
 # Welcome to Docsy Jekyll
 
-This is a starter template for a docsy jekyll theme.
 
-![assets/img/docsy-jekyll.png](assets/img/docsy-jekyll.png)
 
 ## Purpose
 
