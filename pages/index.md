@@ -10,8 +10,7 @@ permalink: /
 
 
 
-Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a 
-particular page.
+Welcome to the {{ site.title }} Documentation pages! 
 
 <div class="section-index">
     <hr class="panel-line">
