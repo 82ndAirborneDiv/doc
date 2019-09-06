@@ -10,7 +10,7 @@ permalink: /
 
 
 
-Welcome to the {{ site.title }} Documentation pages! 
+Welcome to the {{ site.title }} site! 
 
 <div class="section-index">
     <hr class="panel-line">
