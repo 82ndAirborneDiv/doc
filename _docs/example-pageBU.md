@@ -1,36 +1,34 @@
 ---
-title: A Nested Page
-description: An example of a nested page
+title: Mobile Policy Recommendation
+description: CDC needs a framework for rapid deployment of in-house built mobile applications. We have partnered with DDPHSIS to pilot their app using this new OCIO process.
 ---
 
-# A Nested Page
+# Mobile Policy Recommendation
 
-This is an example of a page that doesn't have a permalink defined, and
-is not included in the table of contents (`_data/toc.yml`). This means
-that it will render based on it's path. Since it's in `docs/example-page.md`,
-the url will be `docs/example-page/`.
+## Assumptions
 
-## Link to a subfolder
+* Current scope limited to CDC issued mobile devices.
+* Further limited to Windows, iPhone, and Samsung devices.
+* One user, one device.
+* Data transmission over https.
+* Data from app will be sent in JSON.
 
-Now let's say we want to link to a subfolder, specifically with this
-setup:
+## Hurdles
 
-```
-docs/
-  example-page.md  (-- we are here
-  subfolder/
-     example-page.md  (-- we want to link here
-```
+* Communications in remote international locations is limited
+* Updates to device platform impacted
+* Updates to mobile app
+* Wireless in foreign environment = increased chance of unauthorized data disclosure.
+* Country offices typically are not staffed for management and support around mobile solutions.
 
-You can provide the relative path to the file, like `subfolder/example-page.md`
-and Jekyll will handle parsing it. For example:
+## Requirements
+* Mobile device shall be registered with CDC MDM.
+* Mobile app must complete static and dynamic security scans
+* Risks which cannot be corrected must be mitigated
+* Https crypto must be at TLS 1.2 or higher.
 
- - [here is that link](subfolder/example-page)
- 
-And {% include doc.html name="here" path="subfolder/example-page" %} is the same link, 
-but generated with the include statement:
-
-```
-{% raw %}{% include doc.html name="here" path="subfolder/example-page" %}{% endraw %}
-```
+## Future State
+* Existing application deployment model relies on the SCCM process currently in place with ITSO.
+* The vision for the future of mobile application deployment is via Device Application Store.
+* Enhanced virtualization and application segmentation techniques will greatly improve OCIO ability to support rapid and scaled mobile deployments.
 
