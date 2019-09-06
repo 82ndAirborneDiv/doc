@@ -1,6 +1,6 @@
 ---
 title: Cloudable System Archetypes
-description: What systems can go to the cloud? How long will it take?
+description: CDC needs a framework for rapid deployment of in-house built mobile applications. We have partnered with DDPHSIS to pilot their app using this new OCIO process.
 ---
 
 # Cloudable System Archetypes
