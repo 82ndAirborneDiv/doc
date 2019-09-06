@@ -1,63 +1,33 @@
 ---
-title: Quiz
-description: How to add interactive quizzes to your site.
+title: Cloud and DevOps Tool Evaluation Research
+description: An evaluation of the Cloud and DevOps set of integrated products that provide for the management of public, private and hybrid cloud environments.
 ---
 
-# Quizzes
+# 1. Cloud Management Platforms
 
-As of version 0.0.12, mkdocs-jekyll has support for basic quizzes! These are
-intended to help educate your users about the content of your documentation.
-For a quiz, you can add a new file to the folder `_data/quizzes`, and write a 
-questions file based on the format shown in `_data/quizzes/example-quiz.yml`.
-Here is a simple example of a multiple choice question (which can also serve as 
-True/False):
+The minimum requirements to be included in this category are products that incorporate self-service interfaces, provision system images, enable metering and billing, and provide for some degree of workload optimization through established policies. More-advanced offerings may also integrate with external enterprise management systems, include service catalogs, support the configuration of storage and network resources, allow for enhanced resource management via service governors and provide advanced monitoring for improved “guest” performance and availability.
 
-```yaml
-title: This is the Quiz Title
-randomized: false
-questions:
+# Vendor/Product: RIGHTSCALE
 
- - type: "multiple-choice"
-   question: "True or False, Pittsburgh is West of Philadelphia"
-   items:
-    - choice: True
-      correct: true
-    - choice: False
-      correct: false
-   followup: | 
-      The answer is True! Pittsburgh is 304.9 miles West of 
-      Philadelphia, or approximately a car ride of 
-      4 hours and 52 minutes. Buckle up!
-```
+## Description
 
-The quiz is rendered with a "Show Answer" button below each question, and when
-the user clicks it, any questions that are flagged with `correct: true` will be 
-bolded, and if a followup section is included, it will be displayed.
-See the live example at the end of this page.
+RightScale enables leading enterprises to accelerate delivery of cloud-based applications that engage customers and drive top-line revenue while optimizing cloud usage to reduce risk and costs. RightScale Optima is a collaborative cloud cost management and optimization solution that enables organizations to take automated action to reduce cloud spend across the enterprise. The RightScale Cloud Management Platform is a comprehensive solution that enables IT organizations to deliver instant access to a portfolio of public, private, and hybrid cloud services across business units and development teams while maintaining enterprise control.
 
-## Options
+## HIGH LEVEL FEATURES
 
-#### Title
+* Use one console to manage costs and to see and manage applications across all clouds and servers.
+* Instant Access to Cloud Resources - Speed development with template-based provisioning of multiple clouds from one portal.
+* One Console for All Your Clouds - See, manage, automate, and govern workloads across any cloud or any server
+* Drive Cloud Cost Optimization - Get visibility into past, present, and future cloud usage and optimize your ongoing cloud spend.
+* Cloud Governance - Frictionless Control - Automate policy-based governance that eliminates barriers without sacrificing control.
 
-If you include a title, it will be rendered at the top of the quiz. This is
-optional - you can leave it out and add it before the include on the page.
+## PROS
 
-#### Random
+* Market Leader – Gartner’s Magic Quadrant
+* Automation – supports most automation tools
+* Cost Management
 
-If you want your questions to be presented randomly, just add randomized: true
-to the data.
+## CONS
 
-
-## Example Quiz
-
-If I want to include the quiz located at `_data/quizzes/example-quiz.yml`, I 
-can do so like this:
-
-```
-{% raw %}{% include quiz.html file='example-quiz' %}{% endraw %}
-```
-
-The rendered quiz is shown here:
-
-
-{% include quiz.html file='example-quiz' %}
+* Pricing
+*  Upgradability
