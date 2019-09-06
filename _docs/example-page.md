@@ -1,7 +1,6 @@
 ---
 title: Cloudable System Archetypes
 description: What systems can go to the cloud? How long will it take?
-permalink: /
 ---
 
 # Cloudable System Archetypes
