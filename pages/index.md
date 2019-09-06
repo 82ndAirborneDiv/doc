@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Docsy Jekylll Theme
-permalink: /
+permalink: /doc/
 ---
 
 ## Table of Contents
